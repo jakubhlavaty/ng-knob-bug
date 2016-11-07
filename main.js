@@ -1,7 +1,7 @@
 var module = angular.module('main', ['ui.knob']);
 module.controller('mainController', function($scope, $interval) {
     $scope.model = {
-        value: 1,
+        value: 0,
         options: {
             readOnly: true,
             animate: {enabled: true, duration: 1000, ease: 'bounce'},
@@ -28,5 +28,6 @@ module.controller('mainController', function($scope, $interval) {
 
     $interval(function () {
         $scope.model.value++;
+        $scope.model.value = $scope.model.value % 7;
     }, 2000);
 });
