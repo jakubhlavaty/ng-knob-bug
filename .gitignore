@@ -1,0 +1,29 @@
+# JetBrains
+.idea
+*.iws
+*.iml
+/out/
+.idea_modules/
+
+#NetBeans
+nbproject
+
+# Node
+logs
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+.lock-wscript
+build/Release
+node_modules
+jspm_packages
+.npm
+.node_repl_history
+/libs/
+
+# Platform specific files
+## Mac
+.DS_Store
+/nbproject/private/

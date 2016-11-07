@@ -1,0 +1,16 @@
+{
+  "name": "ng-knob-bug-example",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Bug Example",
+  "devDependencies": {
+    "bower-installer": "1.2.0",
+    "http-server": "0.9.0"
+  },
+  "scripts": {
+    "postinstall": "bower-installer --remove",
+    "prestart": "npm install",
+    "start": "npm run webserver",
+    "webserver": "http-server -a localhost -p 8080 -c-1 ./"
+  }
+}

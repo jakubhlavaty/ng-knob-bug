@@ -1,0 +1,21 @@
+{
+    "name": "ng-knob-bug-example",
+    "version": "0.0.1",
+    "dependencies": {
+        "angular": "~1.5.8",
+        "ng-knob": "~0.1.3"
+    },
+    "install": {
+        "path": {
+            "js": "libs/js/",
+            "css": "libs/css/",
+            "scss": "src/scss/libs/",
+            "map": "libs/css/",
+            "eot": "libs/css/fonts/",
+            "svg": "libs/css/fonts/",
+            "ttf": "libs/css/fonts/",
+            "woff": "libs/css/fonts/",
+            "woff2": "libs/css/fonts/"
+        }
+    }
+}
